@@ -1,12 +1,14 @@
 # L'invasion des fautes d'orthographe
 
 L'invasion des fautes d'orthographe est un projet réalisé par 4 étudiants :
-  - Lamblin Nicolas
-  - Launay Guillaume
-  - Nourdin Valentin
-  - Pereira Alexandre
+  - Nicolas Lamblin
+  - Guillaume Launay
+  - Valentin Nourdin
+  - Alexandre Pereira
 
-Il s'agit d'un jeu dont le but est de corriger des fautes d'orthographe dans un texte qui défile verticalement.
+Idée originale : Stephane Goria
+
+Il s'agit d'un jeu sérieux dont le but est de corriger des fautes d'orthographe dans un texte qui défile verticalement.
 
 ## Description du sujet
 
