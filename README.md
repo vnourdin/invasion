@@ -22,6 +22,6 @@ Lorsqu'il n'en a plus, la partie est terminée..
 
   Le but du jeu est donc d'obtenir le meilleur score possible, et également d'améliorer son niveau de Français.
 
-## Technologies utilisées
+## Technologies utilisées ##
 
   Le jeu est développé en Java et utilise Swing ainsi que LanguageTool pour détecter le type des mots et générer des fautes appropriées.
