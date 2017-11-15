@@ -56,10 +56,10 @@ public class MenuSuppression extends Menu {
         if (e.getSource() == this.valider) {
             Variables.TEXTE_CHOISI = this.listeLivres.getSelectedItem().toString();
             Variables.CHAPITRE_CHOISI = this.listeChapitres.getSelectedItem().toString();
-            String cheminVersTexte = Constantes.CHEMIN_VERS_LES_TEXTES
+            String cheminVersTexte = Constantes.CHEMIN_TEXTES
                     + "/" + Variables.TEXTE_CHOISI
                     + "/" + Variables.CHAPITRE_CHOISI;
-            String dossier = Constantes.CHEMIN_VERS_LES_TEXTES + "/" + Variables.TEXTE_CHOISI;
+            String dossier = Constantes.CHEMIN_TEXTES + "/" + Variables.TEXTE_CHOISI;
             if (this.listeParties.isEnabled()) {
                 Variables.PARTIE_CHOISIE = this.listeParties.getSelectedItem().toString();
                 cheminVersTexte += "/" + Variables.PARTIE_CHOISIE;
@@ -92,7 +92,7 @@ public class MenuSuppression extends Menu {
 
     public void actualiserListeLivres() {
         this.listeLivres.removeAllItems();
-        File[] dossiersLivres = new File(Constantes.CHEMIN_VERS_LES_TEXTES).listFiles();
+        File[] dossiersLivres = new File(Constantes.CHEMIN_TEXTES).listFiles();
         if (dossiersLivres != null) {
             Arrays.sort(dossiersLivres);
             for (File dossierLivre : dossiersLivres) {
@@ -105,7 +105,7 @@ public class MenuSuppression extends Menu {
     private void actualiserListeChapitres() {
         this.listeChapitres.removeAllItems();
 
-        File[] dossiersChapitres = new File(Constantes.CHEMIN_VERS_LES_TEXTES
+        File[] dossiersChapitres = new File(Constantes.CHEMIN_TEXTES
                 + "/" + this.listeLivres.getSelectedItem()).listFiles();
 
         if (dossiersChapitres != null) {
@@ -121,7 +121,7 @@ public class MenuSuppression extends Menu {
     private void actualiserListeParties() {
         this.listeParties.removeAllItems();
 
-        File[] fichiersParties = new File(Constantes.CHEMIN_VERS_LES_TEXTES
+        File[] fichiersParties = new File(Constantes.CHEMIN_TEXTES
                 + "/" + this.listeLivres.getSelectedItem()
                 + "/" + this.listeChapitres.getSelectedItem()).listFiles();
 

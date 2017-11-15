@@ -26,9 +26,9 @@ public class Variables {
      * Personnalisation graphique
      */
     public static String THEME = Constantes.THEME_CLAIR;
-    public static Font POLICE = Variables.creerPolice("Ressources/Polices/OpenSans-Regular.ttf").deriveFont(Font.PLAIN, 18);
-    public static Font POLICE_ENTETE = Variables.creerPolice("Ressources/Polices/OpenSans-Bold.ttf").deriveFont(Font.BOLD, 45);
-    public static Font POLICE_BOUTON = Variables.creerPolice("Ressources/Polices/OpenSans-Bold.ttf").deriveFont(Font.BOLD, 18);
+    public static Font POLICE = Variables.creerPolice(Constantes.CHEMIN_POLICES + "/OpenSans-Regular.ttf").deriveFont(Font.PLAIN, 18);
+    public static Font POLICE_ENTETE = Variables.creerPolice(Constantes.CHEMIN_POLICES + "/OpenSans-Bold.ttf").deriveFont(Font.BOLD, 45);
+    public static Font POLICE_BOUTON = Variables.creerPolice(Constantes.CHEMIN_POLICES + "/OpenSans-Bold.ttf").deriveFont(Font.BOLD, 18);
     public static Color COULEUR_BOUTONS = Color.decode("#3498db");
     public static Color COULEUR_BOUTONS_SURVOL = Color.decode("#2980b9");
     public static Color COULEUR_TEXTE = Color.decode("#34495e");

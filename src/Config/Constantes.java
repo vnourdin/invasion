@@ -32,44 +32,50 @@ public class Constantes {
     /**
      * Differents chemins vers des fichiers
      */
-    public final static String CHEMIN_VERS_LES_TEXTES = "Ressources/Textes";
-    public final static String CHEMIN_VERS_SCORE = "Ressources/score";
+    public final static String CHEMIN_RSC = "resources";
+    public final static String CHEMIN_POLICES = CHEMIN_RSC + "/Polices";
+
+    public final static String CHEMIN_TEXTES = CHEMIN_RSC + "/Textes";
+    public final static String CHEMIN_VERS_SCORE = CHEMIN_RSC + "/score";
     // Sons
-    public final static String CHEMIN_VERS_BIP = "Ressources/Sons/Bip.aiff";
-    public final static String CHEMIN_VERS_ERREUR = "Ressources/Sons/erreur.aiff";
+    public final static String CHEMIN_SONS = CHEMIN_RSC + "/Sons";
+    public final static String CHEMIN_VERS_BIP = CHEMIN_SONS + "/Bip.aiff";
+    public final static String CHEMIN_VERS_ERREUR = CHEMIN_SONS + "/erreur.aiff";
     // Icones
-    public final static String CHEMIN_VERS_COEUR = "Ressources/Images/Coeur.png";
-    public final static String CHEMIN_VERS_COEUR_SOMBRE = "Ressources/Images/Coeur_Sombre.png";
-    public final static String CHEMIN_VERS_COEURVIDE = "Ressources/Images/CoeurVide.png";
-    public final static String CHEMIN_VERS_COEURVIDE_SOMBRE = "Ressources/Images/CoeurVide_Sombre.png";
-    public final static String CHEMIN_VERS_SON_ON = "Ressources/Images/Son_ON.png";
-    public final static String CHEMIN_VERS_SON_ON_SOMBRE = "Ressources/Images/Son_ON_Sombre.png";
-    public final static String CHEMIN_VERS_SON_OFF = "Ressources/Images/Son_OFF.png";
-    public final static String CHEMIN_VERS_PEINTURE_ON = "Ressources/Images/Peinture_ON.png";
-    public final static String CHEMIN_VERS_PEINTURE_ON_SOMBRE = "Ressources/Images/Peinture_ON_Sombre.png";
-    public final static String CHEMIN_VERS_PEINTURE_OFF = "Ressources/Images/Peinture_OFF.png";
-    public final static String CHEMIN_VERS_AIDE_ON = "Ressources/Images/Aide_ON.png";
-    public final static String CHEMIN_VERS_AIDE_ON_SOMBRE = "Ressources/Images/Aide_ON_Sombre.png";
-    public final static String CHEMIN_VERS_AIDE_OFF = "Ressources/Images/Aide_OFF.png";
-    public final static String CHEMIN_VERS_CHOIX_ON = "Ressources/Images/Choix_ON.png";
-    public final static String CHEMIN_VERS_CHOIX_OFF = "Ressources/Images/Choix_OFF.png";
-    public final static String CHEMIN_VERS_CHOIX_ON_SOMBRE = "Ressources/Images/Choix_ON_Sombre.png";
-    public final static String CHEMIN_VERS_CHOIX_OFF_SOMBRE = "Ressources/Images/Choix_OFF_Sombre.png";
+    public final static String CHEMIN_IMAGES = CHEMIN_RSC + "/Images";
+    public final static String CHEMIN_VERS_COEUR = CHEMIN_IMAGES + "/Coeur.png";
+    public final static String CHEMIN_VERS_COEUR_SOMBRE = CHEMIN_IMAGES + "/Coeur_Sombre.png";
+    public final static String CHEMIN_VERS_COEURVIDE = CHEMIN_IMAGES + "/CoeurVide.png";
+    public final static String CHEMIN_VERS_COEURVIDE_SOMBRE = CHEMIN_IMAGES + "/CoeurVide_Sombre.png";
+    public final static String CHEMIN_VERS_SON_ON = CHEMIN_IMAGES + "/Son_ON.png";
+    public final static String CHEMIN_VERS_SON_ON_SOMBRE = CHEMIN_IMAGES + "/Son_ON_Sombre.png";
+    public final static String CHEMIN_VERS_SON_OFF = CHEMIN_IMAGES + "/Son_OFF.png";
+    public final static String CHEMIN_VERS_PEINTURE_ON = CHEMIN_IMAGES + "/Peinture_ON.png";
+    public final static String CHEMIN_VERS_PEINTURE_ON_SOMBRE = CHEMIN_IMAGES + "/Peinture_ON_Sombre.png";
+    public final static String CHEMIN_VERS_PEINTURE_OFF = CHEMIN_IMAGES + "/Peinture_OFF.png";
+    public final static String CHEMIN_VERS_AIDE_ON = CHEMIN_IMAGES + "/Aide_ON.png";
+    public final static String CHEMIN_VERS_AIDE_ON_SOMBRE = CHEMIN_IMAGES + "/Aide_ON_Sombre.png";
+    public final static String CHEMIN_VERS_AIDE_OFF = CHEMIN_IMAGES + "/Aide_OFF.png";
+    public final static String CHEMIN_VERS_CHOIX_ON = CHEMIN_IMAGES + "/Choix_ON.png";
+    public final static String CHEMIN_VERS_CHOIX_OFF = CHEMIN_IMAGES + "/Choix_OFF.png";
+    public final static String CHEMIN_VERS_CHOIX_ON_SOMBRE = CHEMIN_IMAGES + "/Choix_ON_Sombre.png";
+    public final static String CHEMIN_VERS_CHOIX_OFF_SOMBRE = CHEMIN_IMAGES + "/Choix_OFF_Sombre.png";
     // Boutons
-    public final static String CHEMIN_VERS_JOUER = "Ressources/Boutons/Jouer.png";
-    public final static String CHEMIN_VERS_JOUER_SOMBRE = "Ressources/Boutons/Jouer_Sombre.png";
+    public final static String CHEMIN_BOUTONS = CHEMIN_RSC + "/Boutons";
+    public final static String CHEMIN_VERS_JOUER = CHEMIN_BOUTONS + "/Jouer.png";
+    public final static String CHEMIN_VERS_JOUER_SOMBRE = CHEMIN_BOUTONS + "/Jouer_Sombre.png";
 
-    public final static String CHEMIN_VERS_LIVRE = "Ressources/Boutons/Livre.png";
-    public final static String CHEMIN_VERS_LIVRE_SOMBRE = "Ressources/Boutons/Livre_Sombre.png";
+    public final static String CHEMIN_VERS_LIVRE = CHEMIN_BOUTONS + "/Livre.png";
+    public final static String CHEMIN_VERS_LIVRE_SOMBRE = CHEMIN_BOUTONS + "/Livre_Sombre.png";
 
-    public final static String CHEMIN_VERS_OPTIONS = "Ressources/Boutons/Options.png";
-    public final static String CHEMIN_VERS_OPTIONS_SOMBRE = "Ressources/Boutons/Options_Sombre.png";
+    public final static String CHEMIN_VERS_OPTIONS = CHEMIN_BOUTONS + "/Options.png";
+    public final static String CHEMIN_VERS_OPTIONS_SOMBRE = CHEMIN_BOUTONS + "/Options_Sombre.png";
 
-    public final static String CHEMIN_VERS_ACCUEIL = "Ressources/Boutons/Accueil.png";
-    public final static String CHEMIN_VERS_ACCUEIL_SOMBRE = "Ressources/Boutons/Accueil_Sombre.png";
+    public final static String CHEMIN_VERS_ACCUEIL = CHEMIN_BOUTONS + "/Accueil.png";
+    public final static String CHEMIN_VERS_ACCUEIL_SOMBRE = CHEMIN_BOUTONS + "/Accueil_Sombre.png";
 
-    public final static String CHEMIN_VERS_QUITTER = "Ressources/Boutons/Quitter.png";
-    public final static String CHEMIN_VERS_QUITTER_SOMBRE = "Ressources/Boutons/Quitter_Sombre.png";
+    public final static String CHEMIN_VERS_QUITTER = CHEMIN_BOUTONS + "/Quitter.png";
+    public final static String CHEMIN_VERS_QUITTER_SOMBRE = CHEMIN_BOUTONS + "/Quitter_Sombre.png";
 
 
     /**

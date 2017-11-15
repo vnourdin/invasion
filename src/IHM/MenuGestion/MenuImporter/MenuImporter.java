@@ -64,7 +64,7 @@ public class MenuImporter extends Menu {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == this.valider) {
             if (this.titre.getText().length() > 0 && this.nomFichier.getText().length() > 0 && this.cheminFichier.getText().length() > 0) {
-                String chemin = Constantes.CHEMIN_VERS_LES_TEXTES + "/" + this.titre.getText();
+                String chemin = Constantes.CHEMIN_TEXTES + "/" + this.titre.getText();
                 File nouveauDossier = new File(chemin);
                 if (!nouveauDossier.exists()) {
                     if (!nouveauDossier.mkdir())
